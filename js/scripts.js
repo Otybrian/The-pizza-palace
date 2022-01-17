@@ -1,3 +1,20 @@
+$(document).ready(function () {
+    $("#price").click(function () {
+        $(".price-section").show();
+        $("#price").hide();
+    });
+    $(".price-section").click(function () {
+        $("#price").show();
+        $(".price-section").hide();
+    });
+
+
+    
+});
+
+
+
+
 function makeOrder() {
     var pizza = document.getElementById("select").value;
     var size = document.getElementById("size").value;
