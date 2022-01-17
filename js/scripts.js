@@ -24,4 +24,19 @@ function makeOrder() {
         }
     }
 
+    function selectedCrust() {
+        if (crust == "") {
+            alert("ooops! you forgot to select the crust you want!");
+            document.getElementById("crust").focus();
+            return false;
+        }
+    }
+    function selectedTopping() {
+        if (toppings == "") {
+            alert("what topping would you like?");
+            document.getElementById("toppings").focus();
+            return false;
+        }
+    }
+
 };
