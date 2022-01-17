@@ -39,4 +39,13 @@ function makeOrder() {
         }
     }
 
+    function chooseQuantity() {
+        if (quantity <= 0) {
+            alert("kindly select the quantity of pizza you want!");
+            document.getElementById("quantity").focus();
+            return false;
+        }
+    }
+    alert("Your order of " + quantity + " " + " "+ document.getElementById("select").value + "s" + " @ " + document.getElementById("size").value + " each with the selected toppings and crusts" + " will cost you " + totalCost + " . Thank you for buying from us!")
+
 };
