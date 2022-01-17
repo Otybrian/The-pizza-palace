@@ -7,9 +7,14 @@ $(document).ready(function () {
         $("#price").show();
         $(".price-section").hide();
     });
+    $(".section h1").mouseover(function () {
+        $(".section h3").show();
+    });
+    $(".section h1").mouseout(function () {
+        $(".section h3").hide();
+    });
 
 
-    
 });
 
 
