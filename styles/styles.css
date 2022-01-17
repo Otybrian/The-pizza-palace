@@ -177,3 +177,51 @@
     margin-top: 30px;
     color: blue;
 }
+.price-section{
+    display: flex;
+    background-color: rgba(216, 216, 23, 0.425);
+    
+           
+ }
+ .top{
+    text-align: center;
+    padding-left: 50px;
+    color: tomato;
+    font-size: 25px;
+    padding-top: 40px;
+}
+.top span{
+    color: blue;
+    font-weight: 900;
+}
+.sizes{
+    text-align: center;
+    padding-left: 80px;
+    color: tomato;
+    font-size: 25px;
+    padding-top: 40px;
+}
+.sizes span{
+    color: blue;
+    font-weight: 900;
+}
+.crusting{
+    text-align: center;
+    padding-left: 80px;
+    color: tomato;
+    font-size: 25px;
+    padding-top: 40px;
+}
+.crusting span{
+    color: blue;
+    font-weight: 900;
+}
+.top ul li{
+    list-style: none;
+}
+.sizes ul li{
+    list-style: none;
+}
+.crusting ul li{
+    list-style: none;
+}
