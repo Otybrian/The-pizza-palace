@@ -225,3 +225,16 @@
 .crusting ul li{
     list-style: none;
 }
+.footer{
+    text-align: center;
+    padding-top: 20px;
+}
+.copyright{
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+}
+.section-last{
+    background-color: blue;
+    padding-bottom: 10px;
+}
