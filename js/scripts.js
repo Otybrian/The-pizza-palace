@@ -48,4 +48,11 @@ function makeOrder() {
     }
     alert("Your order of " + quantity + " " + " "+ document.getElementById("select").value + "s" + " @ " + document.getElementById("size").value + " each with the selected toppings and crusts" + " will cost you " + totalCost + " . Thank you for buying from us!")
 
+    function needDelivery() {
+        if (delivery == "") {
+            return false
+        }
+        alert("Your order will be delivered to you at " + delivery + " . You will have to pay an  extra ksh 120 delivery fee")
+
+    }
 };
